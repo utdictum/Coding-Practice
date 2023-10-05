@@ -39,5 +39,4 @@ level3 = "semiprofessional"
 lower = 2000
 upper = 3000
 
-
-print(f"my name is {name}, I am {age} years old\nmy skills are\n- {skill1} ({level1})\n- {skill2} ({level2})\n- {skill3} ({level3})\n\nI am looking for a job with a salary of {lower}-{upper} euros per month")
+print(f"my name is {name}, I am {age} years old\n\nmy skills are\n- {skill1} ({level1})\n- {skill2} ({level2})\n- {skill3} ({level3})\n\nI am looking for a job with a salary of {lower}-{upper} euros per month")
