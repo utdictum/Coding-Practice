@@ -27,3 +27,14 @@ all devided by b
 """
 full_groups += (students % desired_group_size + desired_group_size - 1) // desired_group_size
 print(f"Number of groups formed: {full_groups}")
+
+#how they solved it
+"""If students are a multiple of the group size, it just gives the exact number of groups.
+If students are not a multiple of the group size, it rounds up to include the extra group for the remaining students"""
+students = int(input("How many students on the course? "))
+group_size = int(input("Desired group size? "))
+ 
+groups = (students + group_size - 1) // group_size
+ 
+print("Number of groups formed:", groups)
+  
