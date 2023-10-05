@@ -15,13 +15,13 @@ Average food expenditure:
 Daily: 5.5 euros
 Weekly: 38.5 euros"""
 days = int(input("How many times a week do you eat at the student cafeteria? "))
-price_average = int(input("The price of a typical student lunch? ")) 
-week_average = int(input("How much money do you spend on groceries in a week? ")) 
+price_average = float(input("The price of a typical student lunch? ")) 
+week_average = float(input("How much money do you spend on groceries in a week? ")) 
 
 weekly_cafe= days * price_average
 total_weekly = weekly_cafe + week_average
 daily_average = total_weekly / 7
 
 print("Average food expenditure:")
-print(f"Daily: {daily_average} euros")  
-print(f"Weekly: {total_weekly} euros")
+print(f"Daily: {daily_average:.2f} euros")  
+print(f"Weekly: {total_weekly:.2f} euros")
